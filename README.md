@@ -97,4 +97,3 @@ Replace hardcoded data with dynamic fetch using fetch() or axios.
 Jaivanth Koppula
 
 📧 jaivanthkoppula999@gmail.com
-🔗 GitHub Profile
