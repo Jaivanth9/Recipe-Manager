@@ -1,37 +1,100 @@
-# Recipes App in React Native
+# 🍽️ React Native Recipes App
 
-<center><a href="https://instamobile.io/app-templates/food-app-template/"><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.56.44-PM.png" /></a></center>
+<p align="center">
+  <img src="screenshots/banner.png" alt="App Banner" width="100%" />
+</p>
 
-Download this beautiful free React Native starter kit, featuring a recipes app, to bootstrap your mobile app development. Learn React Native by working on a real project. Get familiar with various native components, navigation, redux and more.
+A beautiful and functional cross-platform **Recipe Application** built with **React Native** and **Expo**. This app helps users discover a variety of recipes categorized by meal types and ingredients, with full recipe details and images.
 
-## Getting Started
+## 📱 Features
 
-To run the app, simply run
+- 🍲 Browse popular recipes with images
+- 📚 View detailed instructions and ingredients
+- 🔍 Search for recipes by keywords
+- 📦 Clean and modular component-based architecture
+- 📱 Fully responsive across Android and iOS devices
+- 🌈 Modern UI/UX with consistent theming
 
-```yarn install && expo start```
+## 🛠️ Tech Stack
 
-And scan the QR code in the Expo client app.
+| Category        | Technology               |
+|----------------|--------------------------|
+| Language        | JavaScript               |
+| Framework       | React Native             |
+| Platform        | Expo                     |
+| State Handling  | useState, useEffect      |
+| API Integration | TheMealDB (or local JSON)|
+| Styling         | StyleSheet API           |
+| Navigation      | React Navigation         |
 
-## Expo Demo
+---
 
-<center><a href=""><img src="https://instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.20.29-PM.png" /></a></center>
+## 📁 Folder Structure
 
-## Features
+react-native-recipes-app/
+├── assets/ # App assets (images, fonts)
+├── components/ # Reusable UI components
+│ ├── CategoryCard.js
+│ ├── RecipeCard.js
+├── screens/ # Screen views
+│ ├── HomeScreen.js
+│ ├── RecipeDetailScreen.js
+│ ├── SearchScreen.js
+├── navigation/ # Navigation config
+│ └── AppNavigator.js
+├── App.js # Entry point
+├── app.json # App config
+└── package.json
 
-- Recipes List
-- Categories
-- Ingredients
-- Recipes Details Screen
-- Photo Gallery
-- Detailed Description
-- Ingredients button
-- Ingredients List
-- Recipes by Ingredient
-- Search
-- Drawer Menu
-- Navigation Bar
-- Beautiful UI Design Kit
-- Compatible with Expo
-- Highly modularized codebase
+---
 
-Coded with 💖💖💖 by <a href="https://instamobile.io/">Instamobile</a>, <a href="https://instaflutter.com/">Instaflutter</a>. and <a href="https://instakotlin.com/">Instakotlin</a>.
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+git clone https://github.com/Jaivanth9/Recipe-Manager.git
+
+cd Recipe-Manager
+
+### 2. Install Dependencies
+
+npm install
+or
+yarn install
+### 3. Run the App
+
+Start the Expo development server:
+
+npm start
+ or
+expo start
+Scan the QR Code with Expo Go (Android/iOS) or use an emulator.
+
+## 🌐 API Integration
+This app can be integrated with TheMealDB for live data or use static JSON for offline support.
+
+API Sample Endpoint:
+
+https://www.themealdb.com/api/json/v1/1/search.php?s=chicken
+
+Replace hardcoded data with dynamic fetch using fetch() or axios.
+
+
+## 🧪 Future Improvements
+
+✅ Add favoriting functionality
+
+🔐 User authentication with Firebase
+
+🛒 Shopping list generator from ingredients
+
+🌍 Multi-language support
+
+☁️ Remote recipe sync with cloud storage
+
+## 👨‍💻 Author
+
+Jaivanth Koppula
+
+📧 jaivanthkoppula999@gmail.com
+🔗 GitHub Profile
