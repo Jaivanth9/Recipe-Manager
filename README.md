@@ -48,6 +48,17 @@ react-native-recipes-app/
 
 ---
 
+## 🤝 Collaborators
+
+| Name | GitHub | Email |
+|------|--------|-------|
+| Jaivanth | [@Jaivanth9](https://github.com/Jaivanth9) | jaivanthkoppula999@gmail.com |
+| Renusree | [@renusree1003](https://github.com/renusree1003) | renusreemalapati@gmail.com |
+| Jagadeesh | [@Jagadeesh01](https://github.com/renusree1003) | jagadeeshtambha@gmail.com |
+
+---
+
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
